@@ -1,10 +1,3 @@
-def cross_join(employees, departments):
-    """
-    Реализует декартово произведение списков employees и departments
+from .ex4_solution import cross_join
 
-    :param employees: Список LastName сотрудников таблицы Employee
-    :param departments: Список DepartmentName таблицы Department
-    :return: Генератор пар (LastName, DepartmentName)
-    """
-    # put your code here
-    pass
+__all__ = ['cross_join']
