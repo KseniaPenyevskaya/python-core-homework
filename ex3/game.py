@@ -27,7 +27,7 @@ def determine_winner(player1: Player, player2: Player) -> Optional[Player]:
         print("Ничья")
         return None
 
-    winner = player1 if player1.action >= player2.action else player2
+    winner = player1 if player1.action > player2.action else player2
     print(f"Победил {winner}")
 
     return winner
